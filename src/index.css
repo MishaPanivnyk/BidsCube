@@ -1,5 +1,36 @@
 @import-normalize; /* bring in normalize.css styles */
-
+@font-face {
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Stolzl'), url('./font/Stolzl-Bold.woff2') format('woff2'),
+    url('./font/Stolzl-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Stolzl'), url('./font/Stolzl-Regular.woff2') format('woff2'),
+    url('./font/Stolzl-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Stolzl'), url('./font/Stolzl-Medium.woff2') format('woff2'),
+    url('./font/Stolzl-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Stolzl Book';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Stolzl'), url('./font/Stolzl-Book.woff2') format('woff2'),
+    url('./font/Stolzl-Book.woff') format('woff');
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

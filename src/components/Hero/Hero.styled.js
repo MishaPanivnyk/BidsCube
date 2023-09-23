@@ -5,6 +5,17 @@ export const HeroContainer = styled.section`
   padding-bottom: 100px;
 `;
 export const HeroPreDesk = styled.p`
+  /* @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards; */
   color: #fbfbfb;
   display: flex;
   align-items: center;
@@ -32,6 +43,17 @@ export const HeroTitle = styled.img`
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  animation: slideInLeft 3s;
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 `;
 export const HeroPositionContianer = styled.div`
   display: flex;
@@ -76,7 +98,7 @@ export const HeroBtn = styled.button`
   font-family: 'Stolzl';
   font-size: 16px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
   display: inline-flex;
   padding: 12px 24px;
@@ -88,5 +110,9 @@ export const HeroBtn = styled.button`
   background: #fbfbfb;
   box-shadow: 3px 3px 0px 0px #00c4ef;
   border: none;
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+  &:hover {
+    color: #00c8fa;
+  }
 `;
