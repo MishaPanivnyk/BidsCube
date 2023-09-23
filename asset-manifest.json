@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BidsCube/static/css/main.d92c8e8f.css",
-    "main.js": "/BidsCube/static/js/main.6b56ad37.js",
+    "main.js": "/BidsCube/static/js/main.bcf5757a.js",
     "static/media/Stolzl-Book.woff": "/BidsCube/static/media/Stolzl-Book.4a144ab1fc819fb561ea.woff",
     "static/media/Stolzl-Medium.woff": "/BidsCube/static/media/Stolzl-Medium.fd5dba5f1856fb73d0f5.woff",
     "static/media/Stolzl-Regular.woff": "/BidsCube/static/media/Stolzl-Regular.1c3b5cf8d78894be0798.woff",
@@ -14,10 +14,10 @@
     "static/media/sprite.svg": "/BidsCube/static/media/sprite.c641cd6e96b29565175ba91ea55e1326.svg",
     "index.html": "/BidsCube/index.html",
     "main.d92c8e8f.css.map": "/BidsCube/static/css/main.d92c8e8f.css.map",
-    "main.6b56ad37.js.map": "/BidsCube/static/js/main.6b56ad37.js.map"
+    "main.bcf5757a.js.map": "/BidsCube/static/js/main.bcf5757a.js.map"
   },
   "entrypoints": [
     "static/css/main.d92c8e8f.css",
-    "static/js/main.6b56ad37.js"
+    "static/js/main.bcf5757a.js"
   ]
 }
