@@ -1,11 +1,14 @@
 import React from 'react';
 import { Header } from './Header/Header';
-
+import Hero from './Hero/Hero';
+import { ContainerBack } from './App.styled';
 export function App() {
   return (
     <div>
-      <Header />
-      {/* Остальной контент вашего приложения */}
+      <ContainerBack>
+        <Header />
+        <Hero />
+      </ContainerBack>
     </div>
   );
 }
