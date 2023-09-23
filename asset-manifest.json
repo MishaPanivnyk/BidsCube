@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/BidsCube/static/css/main.a39cec7b.css",
-    "main.js": "/BidsCube/static/js/main.0b8f7767.js",
+    "main.css": "/BidsCube/static/css/main.d92c8e8f.css",
+    "main.js": "/BidsCube/static/js/main.4f8286bf.js",
+    "static/media/Stolzl-Book.woff": "/BidsCube/static/media/Stolzl-Book.4a144ab1fc819fb561ea.woff",
+    "static/media/Stolzl-Medium.woff": "/BidsCube/static/media/Stolzl-Medium.fd5dba5f1856fb73d0f5.woff",
+    "static/media/Stolzl-Regular.woff": "/BidsCube/static/media/Stolzl-Regular.1c3b5cf8d78894be0798.woff",
+    "static/media/Stolzl-Bold.woff": "/BidsCube/static/media/Stolzl-Bold.ee0c3d293c6c342fe5e7.woff",
+    "static/media/Stolzl-Book.woff2": "/BidsCube/static/media/Stolzl-Book.a838b6f4a4c2ec153c03.woff2",
+    "static/media/Stolzl-Regular.woff2": "/BidsCube/static/media/Stolzl-Regular.5cbda06fcf6155861c21.woff2",
+    "static/media/Stolzl-Medium.woff2": "/BidsCube/static/media/Stolzl-Medium.e48c0686c6dfd1db2c68.woff2",
+    "static/media/Stolzl-Bold.woff2": "/BidsCube/static/media/Stolzl-Bold.07df2154b1ecde96db59.woff2",
     "static/media/Hero.png": "/BidsCube/static/media/Hero.cbb3adf5eca6c5e7adc4.png",
     "static/media/sprite.svg": "/BidsCube/static/media/sprite.06c31bc470ec28280e89d02464c084fd.svg",
     "index.html": "/BidsCube/index.html",
-    "main.a39cec7b.css.map": "/BidsCube/static/css/main.a39cec7b.css.map",
-    "main.0b8f7767.js.map": "/BidsCube/static/js/main.0b8f7767.js.map"
+    "main.d92c8e8f.css.map": "/BidsCube/static/css/main.d92c8e8f.css.map",
+    "main.4f8286bf.js.map": "/BidsCube/static/js/main.4f8286bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.a39cec7b.css",
-    "static/js/main.0b8f7767.js"
+    "static/css/main.d92c8e8f.css",
+    "static/js/main.4f8286bf.js"
   ]
 }
