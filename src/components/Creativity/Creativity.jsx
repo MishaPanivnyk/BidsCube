@@ -35,7 +35,7 @@ export const Creativity = () => {
               incredible event the BidsCube team spent
             </CreativityItemDesc>
             <CreativityItemBtn>
-              Join us{' '}
+              Join us
               <svg>
                 <use href={sprite + '#icon-Arrow'} />
               </svg>
@@ -49,7 +49,7 @@ export const Creativity = () => {
               incredible event the BidsCube team spent
             </CreativityItemDesc>
             <CreativityItemBtn>
-              Join us{' '}
+              Join us
               <svg>
                 <use href={sprite + '#icon-Arrow'} />
               </svg>
