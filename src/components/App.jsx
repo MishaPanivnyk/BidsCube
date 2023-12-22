@@ -6,6 +6,7 @@ import { Footer } from './Footer/Footer';
 import { Map } from './Map/Map';
 import { Venue } from './Venue/Venue';
 import { Celebrate } from './Celebrate/Celebrate';
+import { Creativity } from './Creativity/Creativity';
 export function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ export function App() {
         <Hero />
       </ContainerBack>
       <Celebrate />
+      <Creativity />
       <Venue />
       <Map />
       <Footer />
