@@ -46,6 +46,7 @@ export const CreativityItemList = styled.ul`
     margin-right: auto;
     margin-top: 36px;
     margin-bottom: 26px;
+    height: 148px;
   }
 `;
 export const CreativityItem = styled.li`
@@ -54,6 +55,7 @@ export const CreativityItem = styled.li`
   max-width: 310px;
   padding-bottom: 36px;
   padding-left: 24px;
+  padding-right: 24px;
 `;
 export const CreativityItemTitle = styled.h3`
   color: #fbfbfb;
