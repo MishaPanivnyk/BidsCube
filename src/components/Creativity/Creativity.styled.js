@@ -65,7 +65,6 @@ export const CreativityItemTitle = styled.h3`
   font-weight: 400;
   line-height: normal;
   margin-bottom: 12px;
-
   padding-right: 47px;
 `;
 export const CreativityItemDesc = styled.p`
