@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BidsCube/static/css/main.5adbec6f.css",
-    "main.js": "/BidsCube/static/js/main.dfcaab6e.js",
+    "main.css": "/BidsCube/static/css/main.319d0f0e.css",
+    "main.js": "/BidsCube/static/js/main.5f63c310.js",
     "static/media/img1.jpg": "/BidsCube/static/media/img1.1a06f019e055b638c434.jpg",
     "static/media/img3.jpg": "/BidsCube/static/media/img3.1bdbec3e3ffa0dcd1a50.jpg",
     "static/media/img2.jpg": "/BidsCube/static/media/img2.478532638bc1ec5ba944.jpg",
@@ -9,18 +9,21 @@
     "static/media/Stolzl-Medium.woff": "/BidsCube/static/media/Stolzl-Medium.fd5dba5f1856fb73d0f5.woff",
     "static/media/Stolzl-Regular.woff": "/BidsCube/static/media/Stolzl-Regular.1c3b5cf8d78894be0798.woff",
     "static/media/Stolzl-Bold.woff": "/BidsCube/static/media/Stolzl-Bold.ee0c3d293c6c342fe5e7.woff",
+    "static/media/Creativity3.png": "/BidsCube/static/media/Creativity3.e8eb66adc76a80e1e741.png",
+    "static/media/Creativity2.png": "/BidsCube/static/media/Creativity2.70e129fa300f0cba8b9b.png",
     "static/media/Stolzl-Book.woff2": "/BidsCube/static/media/Stolzl-Book.a838b6f4a4c2ec153c03.woff2",
     "static/media/Stolzl-Regular.woff2": "/BidsCube/static/media/Stolzl-Regular.5cbda06fcf6155861c21.woff2",
     "static/media/Stolzl-Medium.woff2": "/BidsCube/static/media/Stolzl-Medium.e48c0686c6dfd1db2c68.woff2",
     "static/media/Stolzl-Bold.woff2": "/BidsCube/static/media/Stolzl-Bold.07df2154b1ecde96db59.woff2",
+    "static/media/Creativity1.png": "/BidsCube/static/media/Creativity1.0ddc315461fe48477e15.png",
     "static/media/Hero.png": "/BidsCube/static/media/Hero.cbb3adf5eca6c5e7adc4.png",
-    "static/media/sprite.svg": "/BidsCube/static/media/sprite.c641cd6e96b29565175ba91ea55e1326.svg",
+    "static/media/sprite.svg": "/BidsCube/static/media/sprite.34ac779c880ac2f86c298840f87263a8.svg",
     "index.html": "/BidsCube/index.html",
-    "main.5adbec6f.css.map": "/BidsCube/static/css/main.5adbec6f.css.map",
-    "main.dfcaab6e.js.map": "/BidsCube/static/js/main.dfcaab6e.js.map"
+    "main.319d0f0e.css.map": "/BidsCube/static/css/main.319d0f0e.css.map",
+    "main.5f63c310.js.map": "/BidsCube/static/js/main.5f63c310.js.map"
   },
   "entrypoints": [
-    "static/css/main.5adbec6f.css",
-    "static/js/main.dfcaab6e.js"
+    "static/css/main.319d0f0e.css",
+    "static/js/main.5f63c310.js"
   ]
 }
