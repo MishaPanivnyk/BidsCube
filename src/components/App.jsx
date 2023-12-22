@@ -7,6 +7,7 @@ import { Map } from './Map/Map';
 import { Venue } from './Venue/Venue';
 import { Celebrate } from './Celebrate/Celebrate';
 import { Creativity } from './Creativity/Creativity';
+import Timer from './Timer/Timer';
 export function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ export function App() {
       </ContainerBack>
       <Celebrate />
       <Creativity />
+      <Timer />
       <Venue />
       <Map />
       <Footer />
