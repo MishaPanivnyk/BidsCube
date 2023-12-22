@@ -5,7 +5,7 @@ export const VenueContainer = styled.section`
 export const VenueContainerFlex = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   gap: 376px;
 `;
 export const VenueTitle = styled.h2`
