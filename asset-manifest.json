@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BidsCube/static/css/main.319d0f0e.css",
-    "main.js": "/BidsCube/static/js/main.65b095d6.js",
+    "main.css": "/BidsCube/static/css/main.6ade2510.css",
+    "main.js": "/BidsCube/static/js/main.9bad9e98.js",
     "static/media/img1.jpg": "/BidsCube/static/media/img1.1a06f019e055b638c434.jpg",
     "static/media/img3.jpg": "/BidsCube/static/media/img3.1bdbec3e3ffa0dcd1a50.jpg",
     "static/media/img2.jpg": "/BidsCube/static/media/img2.478532638bc1ec5ba944.jpg",
@@ -19,11 +19,11 @@
     "static/media/Hero.png": "/BidsCube/static/media/Hero.cbb3adf5eca6c5e7adc4.png",
     "static/media/sprite.svg": "/BidsCube/static/media/sprite.34ac779c880ac2f86c298840f87263a8.svg",
     "index.html": "/BidsCube/index.html",
-    "main.319d0f0e.css.map": "/BidsCube/static/css/main.319d0f0e.css.map",
-    "main.65b095d6.js.map": "/BidsCube/static/js/main.65b095d6.js.map"
+    "main.6ade2510.css.map": "/BidsCube/static/css/main.6ade2510.css.map",
+    "main.9bad9e98.js.map": "/BidsCube/static/js/main.9bad9e98.js.map"
   },
   "entrypoints": [
-    "static/css/main.319d0f0e.css",
-    "static/js/main.65b095d6.js"
+    "static/css/main.6ade2510.css",
+    "static/js/main.9bad9e98.js"
   ]
 }
