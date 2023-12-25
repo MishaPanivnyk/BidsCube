@@ -52,7 +52,7 @@ export const CreativityItemList = styled.ul`
 export const CreativityItem = styled.li`
   border-radius: 3px;
   background: linear-gradient(204deg, #007afb 27.16%, #0074ee 92.16%);
-  max-width: 262px;
+  width: 262px;
   padding-bottom: 36px;
   padding-left: 24px;
   padding-right: 24px;
