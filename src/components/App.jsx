@@ -8,6 +8,7 @@ import { Venue } from './Venue/Venue';
 import { Celebrate } from './Celebrate/Celebrate';
 import { Creativity } from './Creativity/Creativity';
 import Timer from './Timer/Timer';
+import { Meet } from './Meet/Meet';
 export function App() {
   return (
     <div>
@@ -18,6 +19,7 @@ export function App() {
       <Celebrate />
       <Creativity />
       <Timer />
+      <Meet />
       <Venue />
       <Map />
       <Footer />
