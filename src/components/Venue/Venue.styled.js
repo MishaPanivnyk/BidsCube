@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 export const VenueContainer = styled.section`
   padding-bottom: 52px;
+  padding-top: 52px;
 `;
 export const VenueContainerFlex = styled.div`
   display: flex;
