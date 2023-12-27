@@ -5,4 +5,10 @@ export const Wrapper = styled.div`
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
+  min-width: 320px;
+  @media screen and (min-width: 1280px) {
+    width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 `;
