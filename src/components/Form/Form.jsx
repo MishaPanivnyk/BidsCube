@@ -12,7 +12,7 @@ export const Form = () => {
     preferredTime: '',
     message: '',
   });
-
+  // eslint-disable-next-line
   const [formErrors, setFormErrors] = useState({
     name: '',
     email: '',
