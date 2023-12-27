@@ -33,8 +33,6 @@ export const Form = () => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    // Your form submission logic goes here
-    // Validate form fields and perform necessary actions
   };
   const [isChecked, setIsChecked] = useState(false);
 
