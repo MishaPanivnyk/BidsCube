@@ -9,6 +9,7 @@ import { Celebrate } from './Celebrate/Celebrate';
 import { Creativity } from './Creativity/Creativity';
 import Timer from './Timer/Timer';
 import { Meet } from './Meet/Meet';
+import { Form } from './Form/Form';
 export function App() {
   return (
     <div>
@@ -20,6 +21,7 @@ export function App() {
       <Creativity />
       <Timer />
       <Meet />
+      <Form />
       <Venue />
       <Map />
       <Footer />
