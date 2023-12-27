@@ -6,7 +6,7 @@ export const VenueContainerFlex = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 376px;
+  gap: 447px;
 `;
 export const VenueTitle = styled.h2`
   color: #505050;
