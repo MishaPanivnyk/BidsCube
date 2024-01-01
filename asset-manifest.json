@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BidsCube/static/css/main.6ade2510.css",
-    "main.js": "/BidsCube/static/js/main.aaa6939d.js",
+    "main.js": "/BidsCube/static/js/main.d99bc5d8.js",
     "static/media/img1.jpg": "/BidsCube/static/media/img1.1a06f019e055b638c434.jpg",
     "static/media/img3.jpg": "/BidsCube/static/media/img3.1bdbec3e3ffa0dcd1a50.jpg",
     "static/media/img2.jpg": "/BidsCube/static/media/img2.478532638bc1ec5ba944.jpg",
@@ -22,10 +22,10 @@
     "static/media/Hero.png": "/BidsCube/static/media/Hero.cbb3adf5eca6c5e7adc4.png",
     "index.html": "/BidsCube/index.html",
     "main.6ade2510.css.map": "/BidsCube/static/css/main.6ade2510.css.map",
-    "main.aaa6939d.js.map": "/BidsCube/static/js/main.aaa6939d.js.map"
+    "main.d99bc5d8.js.map": "/BidsCube/static/js/main.d99bc5d8.js.map"
   },
   "entrypoints": [
     "static/css/main.6ade2510.css",
-    "static/js/main.aaa6939d.js"
+    "static/js/main.d99bc5d8.js"
   ]
 }
