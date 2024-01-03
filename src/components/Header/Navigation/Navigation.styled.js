@@ -4,6 +4,9 @@ export const Nav = styled.nav`
   display: flex;
   align-items: center;
   gap: 33px;
+  @media screen and (max-width: 1280px) {
+    display: none;
+  }
 `;
 export const Link = styled.a`
   display: flex;
@@ -16,4 +19,10 @@ export const Link = styled.a`
   font-weight: 400;
   line-height: normal;
   cursor: pointer;
+`;
+export const Hamburger = styled.img`
+  display: none;
+  @media screen and (max-width: 1280px) {
+    display: block;
+  }
 `;
