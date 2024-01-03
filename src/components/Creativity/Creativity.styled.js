@@ -28,10 +28,16 @@ export const CreativityDesk = styled.p`
   max-width: 611px;
   margin-left: auto;
   margin-right: auto;
+  @media screen and (max-width: 1280px) {
+    max-width: 358px;
+  }
 `;
 export const CreativityItemContainer = styled.div`
   display: flex;
   gap: 45px;
+  @media screen and (max-width: 1280px) {
+    display: block;
+  }
 `;
 export const CreativityItemList = styled.ul`
   position: absolute;
@@ -41,6 +47,11 @@ export const CreativityItemList = styled.ul`
   display: flex;
   gap: 30px;
   justify-content: center;
+  @media screen and (max-width: 1280px) {
+    flex-direction: column;
+    top: 170%;
+    left: 50%;
+  }
   img {
     margin-left: auto;
     margin-right: auto;
@@ -56,6 +67,9 @@ export const CreativityItem = styled.li`
   padding-bottom: 36px;
   padding-left: 24px;
   padding-right: 24px;
+  @media screen and (max-width: 1280px) {
+    padding-top: 36px;
+  }
 `;
 export const CreativityItemTitle = styled.h3`
   color: #fbfbfb;
@@ -76,6 +90,9 @@ export const CreativityItemDesc = styled.p`
   margin-bottom: 15px;
   line-height: 24px;
   max-width: 238px;
+  @media screen and (max-width: 1280px) {
+    max-width: 252px;
+  }
   /* padding-right: 34px; */
 `;
 export const CreativityItemBtn = styled.button`
