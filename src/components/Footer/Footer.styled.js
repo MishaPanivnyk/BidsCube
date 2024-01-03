@@ -6,6 +6,9 @@ export const FooterContainer = styled.footer`
 export const ContainerFlex = styled.div`
   display: flex;
   justify-content: space-around;
+  @media screen and (max-width: 1280px) {
+    display: block;
+  }
 `;
 export const FooterDescContainer = styled.div``;
 export const FooterDesc = styled.p`
@@ -17,6 +20,9 @@ export const FooterDesc = styled.p`
   line-height: normal;
   max-width: 300px;
   margin-top: 29px;
+  @media screen and (max-width: 1280px) {
+    margin-bottom: 30px;
+  }
 `;
 export const FooterContactContainer = styled.div``;
 export const FooterContactTitle = styled.h2`
