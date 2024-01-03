@@ -5,17 +5,6 @@ export const HeroContainer = styled.section`
   padding-bottom: 100px;
 `;
 export const HeroPreDesk = styled.p`
-  /* @keyframes fade-in {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  animation-name: fade-in;
-  animation-duration: 1s;
-  animation-fill-mode: forwards; */
   color: #fbfbfb;
   display: flex;
   align-items: center;
@@ -54,6 +43,11 @@ export const HeroTitle = styled.img`
       opacity: 1;
     }
   }
+  @media screen and (max-width: 1280px) {
+    max-width: 357px;
+    margin-left: 0;
+    margin-right: 0;
+  }
 `;
 export const HeroPositionContianer = styled.div`
   display: flex;
@@ -88,6 +82,11 @@ export const HeroDesk = styled.p`
   margin-left: auto;
   margin-right: auto;
   max-width: 631px;
+  @media screen and (max-width: 1280px) {
+    max-width: 358px;
+    margin-left: 0;
+    margin-right: 0;
+  }
 `;
 export const HeroBtnContainer = styled.div`
   display: flex;
