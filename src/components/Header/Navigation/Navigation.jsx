@@ -1,5 +1,5 @@
-import { Hamburger, Link, Nav } from './Navigation.styled';
-import hamburger from 'img/hamburger.png';
+import { Link, Nav } from './Navigation.styled';
+// import hamburger from 'img/hamburger.png';
 
 export const Navigation = ({ onClick }) => {
   return (
