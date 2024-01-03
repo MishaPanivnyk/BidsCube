@@ -8,6 +8,9 @@ export const VenueContainerFlex = styled.div`
   align-items: center;
   justify-content: center;
   gap: 447px;
+  @media screen and (max-width: 1280px) {
+    gap: 15px;
+  }
 `;
 export const VenueTitle = styled.h2`
   color: #505050;
@@ -17,10 +20,17 @@ export const VenueTitle = styled.h2`
   font-weight: 400;
   line-height: normal;
   max-width: 190px;
+  @media screen and (max-width: 1280px) {
+    font-size: 38px;
+  }
 `;
 export const VenueDeskContainer = styled.div`
   display: flex;
   gap: 45px;
+  @media screen and (max-width: 1280px) {
+    flex-direction: column;
+    gap: 20px;
+  }
 `;
 export const VenueDeskTitle = styled.p`
   color: #00c8fa;
@@ -39,4 +49,7 @@ export const VenueDesk = styled.p`
   font-weight: 400;
   line-height: normal;
   max-width: 180px;
+  @media screen and (max-width: 1280px) {
+    max-width: 279px;
+  }
 `;
