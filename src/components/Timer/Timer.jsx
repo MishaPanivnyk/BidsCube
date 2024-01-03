@@ -24,7 +24,7 @@ class Timer extends Component {
 
   updateTimer() {
     const now = new Date();
-    const targetDate = new Date('2024-03-01T00:00:00'); // Замените на вашу целевую дату
+    const targetDate = new Date('2024-01-10T00:00:00'); // Замените на вашу целевую дату
 
     const difference = targetDate - now;
 
