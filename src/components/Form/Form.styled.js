@@ -3,16 +3,32 @@ export const FormContainer = styled.section`
   .message {
     width: 814px !important;
     height: 53px !important;
+    @media screen and (max-width: 1280px) {
+      width: 292px !important;
+      height: 77px !important;
+    }
+  }
+  .form-row {
+    @media screen and (max-width: 1280px) {
+      max-width: 316px !important;
+    }
   }
   .input-error {
-    padding: 12px 0;
-    padding-left: 16px;
+    padding: 12px 0px 12px 16px;
+
     width: 250px;
     height: 24px;
     border-radius: 3px;
     background: #fbfbfb;
     border: none;
     transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (max-width: 1280px) {
+      width: 292px;
+      height: 48px;
+      padding: 12px 16px;
+      /* padding-right: 0; */
+      padding-left: 16px;
+    }
     &::placeholder {
       color: #a9dae1;
       font-family: 'Stolzl';
@@ -33,11 +49,14 @@ export const FormContainer = styled.section`
   }
   .form-container {
     display: flex;
-
-    height: 48px;
+    /* height: 48px; */
     flex-wrap: wrap;
     gap: 16px;
     justify-content: center;
+    @media screen and (max-width: 1280px) {
+      flex-direction: column;
+      /* height: 0; */
+    }
   }
   .form-button {
     padding: 12px 184px;
@@ -55,6 +74,9 @@ export const FormContainer = styled.section`
     box-shadow: 3px 3px 0px 0px #fff;
     cursor: pointer;
     transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (max-width: 1280px) {
+      padding: 12px 146px;
+    }
   }
   .form-button:hover,
   :focus {
@@ -63,10 +85,14 @@ export const FormContainer = styled.section`
   }
   .check-container {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 17px;
     justify-content: center;
     margin-top: 28px;
+    @media screen and (max-width: 1280px) {
+      margin-top: 24px;
+      justify-content: space-around;
+    }
   }
   .check-text {
     color: #fbfbfb;
@@ -76,6 +102,9 @@ export const FormContainer = styled.section`
     font-weight: 400;
     line-height: normal;
     width: 404px;
+    @media screen and (max-width: 1280px) {
+      width: 324px;
+    }
   }
   .check-text-policy {
     color: #fbfbfb;
@@ -97,6 +126,11 @@ export const FormTitle = styled.h2`
   font-weight: 400;
   line-height: 48px;
   margin-bottom: 40px;
+  @media screen and (max-width: 1280px) {
+    width: 269px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 `;
 export const FormFlexContainer = styled.div`
   margin-left: auto;
@@ -106,4 +140,11 @@ export const FormFlexContainer = styled.div`
   padding: 52px 105px;
   border-radius: 3px;
   background: linear-gradient(204deg, #007afb 27.16%, #0074ee 92.16%), #007afb;
+  @media screen and (max-width: 1280px) {
+    max-width: 322px;
+    height: 915px;
+    padding: 52px 17px;
+    margin-left: 0;
+    margin-right: 0;
+  }
 `;
