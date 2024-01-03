@@ -13,6 +13,9 @@ export const CelebrateTitle = styled.h2`
   font-weight: 400;
   line-height: normal;
   margin-bottom: 24px;
+  @media screen and (max-width: 1280px) {
+    max-width: 382px;
+  }
 `;
 
 export const CelebrateDesk = styled.p`
@@ -27,11 +30,17 @@ export const CelebrateDesk = styled.p`
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
+  @media screen and (max-width: 1280px) {
+    max-width: 358px;
+  }
 `;
 export const CelebrateDeskHashtagContainer = styled.div`
   display: flex;
   gap: 45px;
   justify-content: center;
+  @media screen and (max-width: 1280px) {
+    gap: 12px;
+  }
 `;
 export const CelebrateImgContainer = styled.div`
   margin-bottom: 40px;
